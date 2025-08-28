@@ -8,6 +8,11 @@ The bash scripts are written to work on MacOS and Linux
 
 As well as the Docker containers the system you run this demo on will need both Docker installed and at least an IBM MQ base client and samples. For example, those found at https://developer.ibm.com/articles/mq-downloads/#c-lang for your base OS. From this you'll need both the location of the runmqsc and the pre-built samples in your path (bin and samp/bin).
 
+**Please note:** if running the Demo with Rancher Desktop, remove `localhost` from all instances of `--detach --name QMX localhost/ibm-mqadvanced-server-dev:9.4.0.0-arm64` in `demo/M1MacDocker
+/createDockerCluster.sh` and `demo/M1MacDocker/addQM4.sh`.
+
+
+
 ## The setup
 
 This demo is based on three queue managers configured as a Uniform Cluster.

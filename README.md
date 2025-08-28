@@ -14,7 +14,8 @@ As well as the Linux demo, a demo using Docker can be found in ['demo/Docker'](d
 
 ['pubsub'](pubsub) demonstrates certain publish subscribe scenarios which can work well in Uniform Clusters, by avoiding single queue manager affinities.
 
-More information on Uniform Clusters can be found [here](https://www.ibm.com/support/knowledgecenter/SSFKSJ_9.1.0/com.ibm.mq.pla.doc/q132720_.htm).
+More information on Uniform Clusters can be found [here](https://developer.ibm.com/series/mq-uniform-clustering/).
+
 
 ## License
 
